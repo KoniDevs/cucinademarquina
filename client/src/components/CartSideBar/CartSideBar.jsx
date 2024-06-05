@@ -273,10 +273,10 @@ const CartSidebar = ({googleAccount, accounts, cartItems, removeFromCart, isOpen
       'Scan the QR Code!\nYour feedbacks will greatly\nbe appreciated';
 
     // Calculate positions
-    const qrCodeImageX = 35; // Adjust X coordinate as needed
-    const qrCodeImageY = posY - 10; // Adjust Y coordinate as needed
-    const qrCodeTextX = qrCodeImageX + qrCodeImageWidth + 15; // Adjust X coordinate as needed
-    const qrCodeTextY = 260; // Adjust Y coordinate as needed
+    const qrCodeImageX = 35;
+    const qrCodeImageY = posY - 20;
+    const qrCodeTextX = qrCodeImageX + qrCodeImageWidth + 15;
+    const qrCodeTextY = posY - 10;
 
     // Add QR code image  
     doc.addImage(QRCode, 'png', qrCodeImageX, qrCodeImageY, qrCodeImageWidth, qrCodeImageHeight);
