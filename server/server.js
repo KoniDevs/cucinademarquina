@@ -42,7 +42,7 @@ app.use(passportSetup.session());
 
 // Middleware setup
 app.use(cors({
-    origin: ["http://localhost:5173", "https://versatily.website"],
+    origin: ["http://localhost:5173", "https://cucinademarquina.versatily.website"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
