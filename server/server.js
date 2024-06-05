@@ -93,8 +93,8 @@ const sendEmailWithAttachment = async(filePath, recipientEmail) => {
     let transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: 'delgadoargie04@gmail.com',
-            pass: 'slzmauxvdfbygyyc'
+            user: 'expocollaboration@gmail.com',
+            pass: 'lebfjlzfpidfaytw'
         }
     });
 
@@ -104,7 +104,7 @@ const sendEmailWithAttachment = async(filePath, recipientEmail) => {
     // File details
     let fileName = path.basename(filePath);
 
-    const sender = 'delgadoargie04@gmail.com';
+    const sender = 'expocollaboration@gmail.com';
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
