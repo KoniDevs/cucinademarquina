@@ -475,18 +475,9 @@
     font-size: .5rem;
   }
 
-  .order-container .product-row {
-    max-width: 150px;
-  }
-
-  .category-order-container .category-order-row {
-    width: 50px;
-  }
-
   .header-hero {
     display: none;
   }
-
 
   .brand .logo img {
     display: none;
