@@ -1,4 +1,4 @@
-# Versatily-Develop System
+# Versatily Developed System
 
 ### Description
-A standalone POS System for G12 exposition event in STI College Marikina
+A standalone Online Ordering System for G12 exposition event in STI College Marikina
